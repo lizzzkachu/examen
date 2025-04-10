@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo img {
+  margin: 10px;
+}
+.logo h1 {
+  margin: 5px;
+}
+.inf {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  margin: 10px;
+}
+.inf img,
+h4 {
+  display: inline-block;
+}
+.inf img {
+  margin: 0px 0px -4px 0px;
+}
+.header-bottom {
+  background-color: rgb(45, 45, 45);
+}
+.header-bottom ol {
+  color: white;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: center;
+  padding: 10px 0px;
+}
+.back-ground {
+  width: 100%;
+  height: 100vh;
+  background-image: url("img/С-чего-начинается-дизайн.jpg");
+  background-size: cover;
+}
+.main-container {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  width: 700px;
+  height: 300px;
+  display: flex;
+  flex-direction: raw;
+  align-items: center;
+  gap: 60px;
+}
+.main-container h3 {
+  margin: 10px;
+  background-color: rgb(186, 230, 215);
+  width: 100px;
+  border-radius: 5px;
+  text-align: center;
+}
+.main-container .table {
+  background-color: rgb(255, 255, 255);
+  width: 200px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 20px;
+  gap: 15px;
+}
+.main-container .table input {
+  color: #0000006e;
+  padding: 0px 0px 10px 0px;
+  width: 200px;  
+}
+
+
